@@ -1,0 +1,28 @@
+Package: dictionarytools
+Type: Package
+Title: Tools for Text Analysis Dictionaries
+Version: 0.10
+Authors@R: c( person("Kenneth", "Benoit", email = "kbenoit@lse.ac.uk", role =
+    c("aut", "cre", "cph")),
+    person("Stefan", "Müller", email = "mullers@tcd.ie", role = "aut"))
+Description: Tools for working with text analysis dictionaries.
+License: GPL-3
+Depends:
+    R (>= 3.1.0)
+Imports:
+    quanteda (>= 1.2),
+    stringi
+Suggests:
+    covr,
+    knitr,
+    quanteda.dictionaries,
+    rmarkdown,
+    spelling,
+    testthat
+Remotes:
+    kbenoit/quanteda.dictionaries
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
+Language: en-GB
+RoxygenNote: 6.1.1
