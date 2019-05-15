@@ -12,7 +12,7 @@ Status](https://img.shields.io/codecov/c/github/quanteda/dictionarytools/master.
 An R package consisting of dictionaries for text analysis and associated
 utilities. Designed to be used with [**quanteda**](http://quanteda.io)
 but can be used more generally with any text analytic package
-(e.g. **tidytext**, **tm**, etc.).
+(e.g. **tidytext**, **tm**, etc.).
 
 ## Installing
 
@@ -21,9 +21,16 @@ but can be used more generally with any text analytic package
 devtools::install_github("quanteda/dictionarytools") 
 ```
 
-## Examples
+## Plans
 
-To be added.
+To do list includes adding functions that: - allow us to convert a
+wild-card or regex dictionary into a fixed match dictionary, for the
+supported languages (English, initially); - expand a core word list
+through synonyms using the **wordnet** package; - expand a core word
+list through (e.g.) cosine similarities to other words from a corpus; -
+expand a core word list through word2vec vector proximities to other
+words from a corpus; - allow easy editing of dictionaries via a
+round-trip to the editor.
 
 ## Code of Conduct
 
